@@ -1,5 +1,8 @@
 # saucedemo_playwright
 
+[![Playwright Tests](https://github.com/dzecGG/saucedemo_playwright/actions/workflows/playwright.yml/badge.svg)](https://github.com/dzecGG/saucedemo_playwright/actions/workflows/playwright.yml)
+[![Tested with Playwright](https://img.shields.io/badge/tested%20with-Playwright-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev/)
+
 End-to-end tests for [Swag Labs](https://www.saucedemo.com/) (saucedemo.com), written with [Playwright Test](https://playwright.dev/) in TypeScript.
 
 The tests were generated from the test plan in [`specs/saucedemo.md`](specs/saucedemo.md) using the Playwright test agents (planner, generator, healer) in `.claude/agents/`.
